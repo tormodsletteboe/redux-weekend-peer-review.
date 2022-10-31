@@ -94,7 +94,7 @@ Hey __Chris Maki_,
 General Feedback. provided by Tormod Sletteboe
 
 Great work, everything works fine. Awesome job on commenting and CSS, easy to read code as well. Only thing I could pick at is your fetch call 
-in you App.jsx is not needed. You call fetch after posting, but the fetch is not really doing anything.
+in your App.jsx is not needed. You call fetch after posting, but the fetch is not really doing anything.
 Also maybe use useEffect and call the redux store to show what the previous selection was, ie, when user goes back 1 page,
 the input does not display what they previously chose.
 And there seems to be an server error on delete in the admin page, but it does delete though so not sure.
